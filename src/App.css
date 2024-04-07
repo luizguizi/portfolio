@@ -58,8 +58,20 @@
   transform: translateY(80%);
   
 }
+
+.linkedin img:hover, .github img:hover, .email img:hover{
+  transition: transform 0.3s;
+  transform: rotate(90deg);
+}
+.github{
+  transition: transform 0.3s ease;
+}
+.email{
+  transition: transform 0.3s ease;
+}
 .linkedin img {
   width: 50px;
+  transition: transform 0.3s;
 }
 .github img {
   width: 40px;
@@ -100,3 +112,70 @@
  width: 200px;
  height: 200px;
 }
+button{
+  margin: 0 13.5%;
+  padding: 6px 0;
+  width: 125px;
+  text-align: center;
+  font-size: 18px;
+  background: linear-gradient(#33FF91,#23F8C5, #33FFE6);
+  border-radius: 10px;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button_ctt img {
+width: 15px;
+}
+.button_ctt {
+  margin-top: -50px;
+}
+button:hover{
+  cursor: pointer;
+  font-size: 18px;
+  background: linear-gradient(#26bb6b,#19b691, #23b3a2);
+}
+.about {
+  text-align: center;
+  margin-top: -120px;  
+  display: flex;
+  flex-direction: column;
+}
+.about p{
+  text-align: justify;
+  width:100%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: flex;
+  
+}
+.dados_formations {
+  display: flex;
+  justify-content: space-between;
+
+  width: 700px;
+}
+.formation {
+  width: 50%;
+  height: 350px;
+}
+.hr_vert{
+  border-right: 1px solid #cfcfcf;
+}
+.formation h3 {
+  text-align: justify;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+.formation p{
+  margin-left: 20px;
+  font-size: 13px;
+  color: #2C2C2C ;
+}
+.about button {
+  margin-top: 15px;
+  margin: 0 auto;
+}
+
+

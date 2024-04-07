@@ -7,3 +7,6 @@ body{
   padding: 0 auto;
   margin: 0;
 }
+a {
+  text-decoration: none;
+}

@@ -9,16 +9,14 @@ import { NavLink } from 'react-router-dom'
 const Medias = () => {
   return (
     <div className='medias'>
-        <NavLink to={'/'}>
-        <div className='linkedin'>
-        <img src={Linkedin} alt="" />
+        <div className='linkedin rotacionar'>
+        <a target='_blank' href="https://www.linkedin.com/in/luizguizi/"><img  src={Linkedin} alt="" /></a>
         </div>
-        </NavLink>
         <div className='github'>
-        <img  src={Github} alt="" />
+        <a href="https://github.com/luizguizi" target='_blank'><img  src={Github} alt="" /></a>
         </div>
         <div className='email'>
-        <img  src={Email} alt="" />
+        <a href=""><img  src={Email} alt="" /></a>
         </div>
     </div>
   )
